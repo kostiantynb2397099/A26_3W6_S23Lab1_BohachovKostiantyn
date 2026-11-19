@@ -1,12 +1,4 @@
 {
-  "iisSettings": {
-    "windowsAuthentication": false,
-    "anonymousAuthentication": true,
-    "iisExpress": {
-      "applicationUrl": "http://localhost:59209",
-      "sslPort": 44389
-    }
-  },
   "profiles": {
     "ZombieParty": {
       "commandName": "Project",
@@ -33,6 +25,14 @@
         "ASPNETCORE_URLS": "https://localhost:7270;http://localhost:5270"
       },
       "distributionName": ""
+    }
+  },
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:59210",
+      "sslPort": 44389
     }
   }
 }
